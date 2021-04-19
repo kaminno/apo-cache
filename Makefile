@@ -8,5 +8,5 @@ all: $(FILE)
 $(FILE): main.c
 	$(CC) $(CFLAGS) main.c -o $(FILE)
 
-zip:
+dozip:
 	$(ZIP) $(FILE)_ernee main.c
